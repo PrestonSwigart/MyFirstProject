@@ -31,6 +31,10 @@ public class Bobby {
      */
     public double getCoolness() {   return coolnessFactor;  }
 
+    /**
+     * public return of coolnessFactor
+     * @return a double respresenting how cool this bobby is
+     */
     public String toString()    {
         return name + " is " + age + " years old and is " +
                 (coolnessFactor*100) + "% cool";
